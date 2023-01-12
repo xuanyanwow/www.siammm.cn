@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>
+            个人简历
+        </title>
+        <meta name="viewport" content="width=device-width,target-densitydpi=high-dpi,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        />
+        <style>
+        @media print {
+            @page {
+                size: A4 portrait;
+            }
+            
+            html, body {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            
+            #work_list,#project_list,#people_experience, #people_info {
+                width: 80%;
+                min-height: 280px;
+                margin: 0 auto;
+                text-align: center
+            }
+            #people_info{
+                height: 320px;
+            }
+            
+            .big_title, .people_big_name {
+                font-size: 1.3em;
+                font-weight: bold;
+                letter-spacing: 2px;
+            }
+            
+            .people_small_name {
+                font-size: .9em;
+                font-weight: 500;
+                letter-spacing: 1px;
+            }
+            
+            .icon_bd {
+                width: 100%;
+                margin-top: 25px;
+                display: flex;
+            }
+            
+            .icon {
+                width: 33%;
+                height: 100px;
+                text-align: center;
+                overflow-wrap: break-word;
+            }
+            
+            .icon img {
+                width: 50px;
+                display: block;
+                margin: 15px auto;
+            } /*工作经历*/.work {
+                text-align: left;
+                margin-top: 45px;
+            }
+            
+            .work .work_times {
+                font-size: 1.2em;
+                font-weight: 700;
+            }
+            
+            .work .work_name {
+                font-size: 1.1em;
+                font-weight: 600;
+            }
+            
+            .work .work_dowhat {
+                font-size: 1em;
+                font-weight: 600;
+            }
+            
+            .work ul {
+                padding: 0 20px;
+            }
+            
+            .project_one .project_name {
+                margin-top: 20px;
+                margin-bottom: 5px;
+                font-size: 1.2em;
+                font-weight: 600;
+            }
+            
+            .project_one .project_detail {
+                font-size: .9em;
+             /*text-indent: 2em;*/
+                line-height: 25px;
+                letter-spacing: 1px;
+                font-family: 微软雅黑;
+                margin-bottom: 20px;
+            }
+            
+            #my_info {
+                /*list-style: decimal;*/
+                padding:0 20px;
+            }
+            
+            #my_info li {
+                font-size: .9.5em;
+                margin-top: 8px;
+            }
+        }
+        
+            html, body {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            
+            #work_list,#project_list,#people_experience, #people_info {
+                width: 80%;
+                min-height: 280px;
+                margin: 0 auto;
+                text-align: center
+            }
+            #people_info{
+                height: 320px;
+            }
+            
+            .big_title, .people_big_name {
+                font-size: 1.3em;
+                font-weight: bold;
+                letter-spacing: 2px;
+            }
+            
+            .people_small_name {
+                font-size: .9em;
+                font-weight: 500;
+                letter-spacing: 1px;
+            }
+            
+            .icon_bd {
+                width: 100%;
+                margin-top: 25px;
+                display: flex;
+            }
+            
+            .icon {
+                width: 33%;
+                height: 100px;
+                text-align: center;
+                overflow-wrap: break-word;
+            }
+            
+            .icon img {
+                width: 50px;
+                display: block;
+                margin: 15px auto;
+            } /*工作经历*/.work {
+                text-align: left;
+                margin-top: 45px;
+            }
+            
+            .work .work_times {
+                font-size: 1.2em;
+                font-weight: 700;
+            }
+            
+            .work .work_name {
+                font-size: 1.1em;
+                font-weight: 600;
+            }
+            
+            .work .work_dowhat {
+                font-size: 1em;
+                font-weight: 600;
+            }
+            
+            .work ul {
+                padding: 0 20px;
+            }
+            
+            .project_one .project_name {
+                margin-top: 20px;
+                margin-bottom: 5px;
+                font-size: 1.2em;
+                font-weight: 600;
+            }
+            
+            .project_one .project_detail {
+                font-size: .9em;
+             /*text-indent: 2em;*/
+                line-height: 25px;
+                letter-spacing: 1px;
+                font-family: 微软雅黑;
+                margin-bottom: 20px;
+            }
+            
+            #my_info {
+                /*list-style: decimal;*/
+                padding:0 20px;
+            }
+            
+            #my_info li {
+                font-size: .9.5em;
+                margin-top: 8px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div id="big_logo">
+        </div>
+        <div id="people_info">
+            <br /> <br />
+            <div class="people_big_name big_title">
+                何泽宏
+            </div>
+            <div class="people_small_name">
+                Siam
+            </div>
+            <div class="icon_bd">
+                <div class="icon">
+                    <img src="https://s4.ax1x.com/2022/01/27/7vMmCV.png" alt="">
+                    男/25岁
+                    <br>
+                    5年工作经验
+                    <br />
+                    意向职位：PHP开发
+                    <br />
+                    意向城市：广州、深圳
+                    <br />
+                    <!--期望薪资：18k-->
+                </div>
+                <div class="icon">
+                    <img src="https://s4.ax1x.com/2022/01/27/7vMVNq.png" alt="">
+                    手机: 15627056225
+                    <br />
+                    <div style="font-size:.8em">
+                    城中村信号不佳，麻烦您使用平台或者微信联系我
+                    
+                    <br />
+                    非常感谢
+                    </div>
+                </div>
+                <div class="icon">
+                    <img src="https://s4.ax1x.com/2022/01/27/7vMZ40.png" alt="">
+                    邮箱: 59419979@qq.com
+                    <br/>
+                    微信: siam-ii
+                    <br/>
+                    QQ: 59419979
+                </div>
+            </div>
+        </div>
+        <div id="people_experience">
+            <br />
+            <br />
+            
+            <br />
+            <div class=" big_title" style="font-size:1.5em;">
+                个人简介
+            </div>
+            <ul style="max-width:800px;text-align:left;" id="my_info">
+                <li>5年后端服务端程序员经验,有过技术小团队任务分配管理经验</li>
+                <li>拥有 电商平台、saas平台、支付体系、物联网项目经验,负责项目核心代码、系统架构设计、业务需求沟通分析</li>
+                <li>熟悉各种业务所遇到技术问题解决方案,拥有高并发、大数据处理、分布式处理解决方案</li>
+                <li>本人热爱技术,自学能力强,工作认真负责,注重代码质量规范,追求服务稳定高效,代码可维护可扩展</li>
+            </ul>
+            <br />
+            <br />
+            <div class=" big_title" style="font-size:1.5em;">
+                技能清单
+            </div>
+            <ul style="max-width:800px;text-align:left;" id="my_info">
+                <li>
+                    精通PHP/Swoole编程,熟悉java,go语言
+                </li>
+                <li>
+                    精通mysql数据库使用,了解mysql索引,mvcc事务,掌握mysql数据库设计和优化
+                </li>
+                <li>
+                    熟悉计算机系统理论,对进程/线程/协程有深刻的开发经验和了解
+                </li>
+                <li>
+                    熟悉网络编程,网络协议,对高并发网络进程模型有一定的了解
+                </li>
+                <li>
+                    熟练使用git,svn协作管理工具,注重代码质量,代码规范,了解设计模式
+                </li>
+                <li>
+                    热爱开源,保持学习和成长,easyswoole开源项目核心成员,多个开源组件作者
+                </li>
+                <li>
+                    熟悉项目单元测试 持续集成部署流程,熟悉项目管理,推进项目进度
+                </li>
+            </ul>
+            
+            <br />
+            <br />
+            <div class=" big_title" style="font-size:1.5em;">
+                个人博客和开源
+            </div>
+            <ul style="max-width:800px;text-align:left;" id="my_info">
+                <li>
+                    github： <a href="https://github.com/xuanyanwow">https://github.com/xuanyanwow</a>
+                </li>
+                <li>
+                    个人博客： <a href="https://blog.siammm.cn">https://blog.siammm.cn</a>
+                </li>
+                <li>
+                    参与easyswoole框架开源：组件、文档
+                    <ul>
+                        <li><a href="https://github.com/easy-swoole/easyswoole">https://github.com/easy-swoole/easyswoole</a></li>
+                        <li><a href="https://github.com/easy-swoole/orm">https://github.com/easy-swoole/orm</a></li>
+                        <li><a href="https://github.com/easy-swoole/fast-cache">https://github.com/easy-swoole/fast-cache</a></li>
+                        <!--<li>...</li>-->
+                    </ul>
+                </li>
+            </ul>
+            <!--<div class=" big_title" style="font-size:1.5em;">-->
+            <!--    学习经历-->
+            <!--</div>-->
+            <!--<ul style="max-width:800px;text-align:left;" id="my_info">-->
+            <!--    <li>-->
+            <!--        <div style="width:100px;display:inline-block">-->
+            <!--            暨南大学-->
+            <!--        </div>  自考专科  2020-2023-->
+            <!--    </li>-->
+            <!--    <li>-->
+            <!--        <div style="width:100px;display:inline-block">-->
+            <!--            普宁华侨中学-->
+            <!--        </div>-->
+            <!--          高中 2014-2016-->
+            <!--    </li>-->
+            <!--</ul>-->
+        </div>
+        <div id="project_list">
+            <div class="big_title" style="font-size:1.5em;margin-top:30px;">
+                项目经历
+            </div>
+            <div class="work">
+                <!--<div class="work_times">2020.3 - 至今</div>-->
+                <!--<div class="work_name">广州展霆供应链有限公司</div>-->
+                <!--<div class="work_dowhat">——PHP开发及项目组长</div>-->
+                
+                <div class="project_one">
+                    <div class="project_name">
+                        <img src="https://s1.ax1x.com/2022/03/19/qASdMV.png" style="width:25px;position:relative;top:5px;"> 跨境Payment Server平台
+                    </div>
+                    <div class="project_detail">
+                        项目主要是面向香港，日本，新加坡等海外地区商户；提供稳定的支付接入技术接口、快速便捷的财务数据和结算服务等
+                        <br/>
+                        项目从17年立项运营至今，知名客户：香港阿迪达斯，香港港中旅巴士，香港全日通巴士，小电科技等
+                        <br />
+                        <!--技术栈：-->
+                        <!--<br />-->
+                        <!--后端使用PHP语言,Thinkphp框架,EasySwoole框架,Nginx服务器,APISIX网关-->
+                        <!--<br />-->
+                        <!--前端主要使用 Layui框架，部分使用Vue生态的Element框架-->
+                        <!--<br />-->
+                        <!--数据库和缓存采用Mysql,Redis-->
+                        <!--<br/>-->
+                        <!--网络协议HTTP,Websocket-->
+                        <!--<br/>-->
+                        <br />
+                        本人主要负责：
+                        <br />
+                        负责项目的平台设计，业务逻辑的开发，单元测试。并提供对内对外接口和相关文档。
+                        <br />
+                        与同事协同开发，分配任务和负责整体进度的推进
+                        <br />
+                        维护项目的平稳运行，提高系统响应速度
+                        <br />
+                        <br />
+                        难点解决：
+                        <br />
+                        - 设计了全球多个节点的部署和数据同步；DNS动态负载均衡,使用APISIX网关(基于openresty)实现QPS等日志统计,商户请求校验和限流,机房内负载均衡
+                        <br />
+                        <!--在项目中，为保障支付数据安全性和数据读取速度，-->
+                        - 采用了Mysql主从数据库设计，准实时增量备份数据
+                        <br />
+                        - 使用Redis缓存，利用swoole的协程特性和异步消费队列实现商户消息的回调；提高了系统运行的可用性、稳定性。
+                        <br />
+                        - 采取Websocket协议方案收款硬件实现语音播报
+                        <br />
+                    </div>
+                </div>
+                
+                <div class="project_one">
+                    <div class="project_name">
+                        <img src="https://s1.ax1x.com/2022/03/19/qASdMV.png" style="width:25px;position:relative;top:5px;"> kk-es平台
+                    </div>
+                    <div class="project_detail">
+                        - 日志中台服务，基于ELK技术栈，为公司其他项目提供数据的存储、检索服务。减少项目的重复开发。 <br />
+                        - 向所有开发人员提供了统一的日志查看入口，可极大地提高了处理告警事件和开发的效率 <br />
+                        - 基于该服务实现了API trace的日志存储，并提供给对接商户自查部分日志数据，减少技术对接沟通成本 <br />
+                        - 基于该服务实现站内信、结算日志等平台管理数据；商品搜索等。得益于倒排索引的优势，可以快速检索数据 <br />
+                        - 利用Kibana，进行数据分析和报表，快速统计项目数据和重要优化点<br />
+                    </div>
+                </div>
+                
+                <div class="project_list">
+                    <div class="project_one">
+                        <div class="project_name">
+                            <img src="https://s1.ax1x.com/2022/03/19/qASdMV.png" style="width:25px;position:relative;top:5px;"> CUBIC SPACE+酒吧运营系统
+                        </div>
+                        <div class="project_detail">
+                            <!--<br />-->
+                            该项目系统主要面向的是酒吧前台、场内服务人员、后勤部门、场外营销部门等，完成订台、开台、点餐、结账等流程功能，后续需扩展客户公众号会员体系。
+                            <!--<br />-->
+                            <!--<br/>-->
+                            <!--技术栈：-->
+                            <!--<br />-->
+                            <!--后端使用PHP语言,Thinkphp框架,EasySwoole框架,Nginx服务器-->
+                            <!--<br />-->
+                            <!--Web前端主要使用Vue，并由同事完成了安卓和PC应用的开发；-->
+                            <!--<br />-->
+                            <!--数据库和缓存采用Mysql,Redis。Redis也充当简单队列,EasySwoole框架常驻应用异步消费-->
+                            <!--<br/>-->
+                            <!--网络协议HTTP-->
+                            <!--<br/>-->
+                            <br />
+                            本人主要负责：
+                            <br />
+                            - 收集利益相关方需求关系,优化运营流程,设计和实现系统
+                            <!--<br />-->
+                            <!--负责运营系统需求的收集，整理；项目设计； 实现了 仓储、商品信息、套餐组合、员工管理、台桌管理、订单管理、存取酒、会员等多个模块功能；并完成了主要的前端和后端开发。-->
+                            <br />
+                            - 该项目数据流转较为复杂，上游对接了多个系统(财务,仓储等)为保证软件架构可扩展性，采取了较多的设计模式， 为日后可能出现的上游数据源和接口变动做出预留空间。
+                            <br />
+                        </div>
+                        <div style="display:none">
+                            采用设计模式： 1. 工厂模式，生产具体的ERP对接类；
+                        </div>
+                    </div>
+                </div>
+                <div class="project_one">
+                    <div class="project_name">
+                        <img src="https://s1.ax1x.com/2022/03/19/qASdMV.png" style="width:25px;position:relative;top:5px;"> 无人冰箱零售后端方案
+                    </div>
+                    <div class="project_detail">
+                        - 提供冰箱改造物联网锁,摄像头图像识别,并实现无人运营结算流程的方案  <br/>
+                        - 采用MQTT和TCP协议对接硬件,与硬件通信从而控制硬件 <br/>
+                        - 提供控制硬件的基础接口、saas业务运营平台<br/>
+                    </div>
+                </div>
+                <div class="project_one">
+                    <div class="project_name">
+                        <img src="https://s1.ax1x.com/2022/03/19/qASdMV.png" style="width:25px;position:relative;top:5px;"> 港中旅，全日通 自助售票 线上售票系统
+                    </div>
+                    <div class="project_detail">
+                        港中旅国际旅行社有限公司由香港中旅集团控股，全日通为香港知名跨境巴士。针对传统售票流程不足进行电子化改革，用户到站点进行自助机购票取票，线上购票存票等。
+                        <br />
+                        项目需要与原有集团系统进行数据同步，与业务团队和技术团队进行沟通，推进项目进度。项目主要为查询较多的业务，采用Redis作为缓存层，有效提高应用响应速度。
+                    </div>
+                </div>
+                
+                <div class="project_one">
+                    <div class="project_name">
+                        <img src="https://s1.ax1x.com/2022/03/19/qASdMV.png" style="width:25px;position:relative;top:5px;"> 微信公众号网关
+                    </div>
+                    <div class="project_detail">
+                        - 为跨境Payment Server商户分发微信优惠券、活动宣传统计、生成场景二维码等常见业务需求提供支撑，协助Payment Server商户运营，提高服务质量和亮点，吸引更多商户 <br />
+                        - 采用微内核架构思想，将各个功能拆成各个小的插件，更好扩展功能和维护 <br />
+                        - 发券插件：需要接入微信官方卡券接口和功能，在消费者触发消息或功能时推送消息和发券；只需按商户资料填入参数即可快速接入 <br />
+                        - 场景二维码插件：根据场景值生成二维码，以及二维码触发事件等设置 <br />
+                        - 消息处理插件：根据设置匹配规则，自动回复公众号消息 <br />
+                        - 回调插件：可将未被其他插件捕获的公众号消息推送给商户其他公众号系统等，实现了功能扩展性，将整个平台当成网关概念来维护 <br />
+                        - ...其他插件
+                    </div>
+                </div>
+                
+                <div class="project_one">
+                    <div class="project_name">
+                        <img src="https://s1.ax1x.com/2022/03/19/qASdMV.png" style="width:25px;position:relative;top:5px;"> 香港星光大道小程序
+                    </div>
+                    <div class="project_detail">
+                        - 为游客提供香港星光大道相关景点、路线、导览团等各种服务信息，展示巨星手印的资料和故事。提高为游客服务的质量和效率。 <br />
+                        - 将各景点的数据和导览团数据进行存储、分析统计，提供报表给财务部门和运营部门。 <br />
+                    </div>
+                </div>
+                
+                <div class="project_one">
+                    <div class="project_name">
+                       <img src="https://s1.ax1x.com/2022/03/19/qASdMV.png" style="width:25px;position:relative;top:5px;"> 业务网关架构
+                    </div>
+                    <div class="project_detail">
+                        - 跨境Payment Server平台外围项目，作为技术服务商，经常为商户定制小系统，采用统一网关用于管理项目并发和安全，保障项目运行质量。  <br />
+                        - 将多个项目分配在不同服务器上，采用APISIX网关负载均衡和限流，防止某个项目被攻击或其他原因影响其他项目 <br />
+                        - 过滤常见XSS，sql注入等漏洞攻击 <br />
+                        - 业务数据日志及时告警，配合运维人员及时做出处理。 <br />
+                    </div>
+                </div>
+                
+                <div class="project_one">
+                    <div class="project_name">
+                        <img src="https://s1.ax1x.com/2022/03/19/qASdMV.png" style="width:25px;position:relative;top:5px;"> 格力售后云派工工单系统
+                    </div>
+                    <div class="project_detail">
+                        项目主要是面向广佛区域（6个市区）的格力售后工单系统，提供经销商网点、售后网点、服务人员师傅等各角色对于客户报修、安装等需求的工单跟进派工系统。
+                        <br/>
+                        系统覆盖APP、PC web、微信小程序各个平台，面向不同岗位和工作流程，提供合适便捷的操作方式
+                        <br />
+                    </div>
+                </div>
+                
+                <!--<div class="project_one">-->
+                <!--    <div class="project_name">-->
+                <!--        📙 其他项目-->
+                <!--    </div>-->
+                <!--    <div class="project_detail">-->
+                <!--        还有其他较多项目和对其他公司的技术支持，篇幅过长，在此省略，如：-->
+                <!--        <br />-->
+                <!--        - 香港星光大道小程序，卡券发放公众号等-->
+                <!--        <br />-->
+                <!--        - 扫码购无人超市系统-->
+                <!--        <br />-->
+                <!--        - 商城系统-->
+                <!--        <br />-->
+                <!--        - 设备广告灯箱投放管理系统-->
+                <!--        <br />-->
+                <!--        ....-->
+                <!--    </div>-->
+                <!--</div>-->
+            </div>
+        </div>
+        <div id="work_list">
+            <div class="big_title" style="font-size:1.5em;margin-top:30px;">
+                工作经历
+            </div>
+            <div class="work">
+                <div class="work_times">
+                    2022.4 - 2022.9
+                </div>
+                <div class="work_name">
+                    广州众炬科技有限公司
+                </div>
+                <!--<div class="work_dowhat">——PHP开发及项目组长</div>-->
+                <ul>
+                    <li>
+                        参与格力云派工工单系统维护、开发任务，为各网点、服务人员的日常工作和功能进行维护升级
+                    </li>
+                    <li>
+                        主要完成事项：完成服务人员、网点的法大大电子协议签约接入管理；平台业务关系架构调整；工单即买即装业务等
+                    </li>
+                </ul>
+            </div>
+            <!--<div class="work">-->
+            <!--    <div class="work_times">-->
+            <!--        2020.3 - 2022.3-->
+            <!--    </div>-->
+            <!--    <div class="work_name">-->
+            <!--        广州展霆供应链有限公司-->
+            <!--    </div>-->
+                <!--<div class="work_dowhat">——PHP开发及项目组长</div>-->
+            <!--    <ul>-->
+            <!--        <li>-->
+            <!--            参与酒吧运营系统项目需求收集和分析，完成数据库设计和架构方案，项目任务分配和进度管控-->
+            <!--        </li>-->
+            <!--        <li>-->
+            <!--            参与港中旅和全日通香港跨境巴士的业务改造，自助机售取票项目的开发和部署-->
+            <!--        </li>-->
+            <!--        <li>-->
+            <!--            完成项目核心代码编写，代码审计，项目环境部署-->
+            <!--        </li>-->
+            <!--        <li>-->
+            <!--            采用ELK方案设计日志中台并接入多个业务项目日志，更好地管理和检索数据-->
+            <!--        </li>-->
+            <!--        <li>-->
+            <!--            规范了小组协作的Git代码管理流程和文档存档-->
+            <!--        </li>-->
+            <!--    </ul>-->
+            <!--</div>-->
+            <div class="work">
+                <div class="work_times">
+                    2017.10 - 2022.03
+                </div>
+                <div class="work_name">
+                    广州造就科技有限公司
+                </div>
+                <!--<div class="work_dowhat">——PHP开发及项目组长</div>-->
+                <ul>
+                    <li>参与无人便利店、无人冰箱的设计讨论，完成开发任务</li>
+                    <li>提出跨境支付平台的重构设计方案和落实开发，完成项目的顺利切换上线运营，并设计分布式部署和Mysql数据同步，为多地区商户提供稳定的接口服务</li>
+                    <li>提出为服务器加入APISIX网关层方案，保证为商户定制的多个小项目能更好运行</li>
+                    <li>
+                        参与酒吧运营系统项目需求收集和分析，完成数据库设计和架构方案，项目任务分配和进度管控
+                    </li>
+                    <li>
+                        参与港中旅和全日通香港跨境巴士的业务改造，自助机售取票项目的开发和部署
+                    </li>
+                    <li>
+                        完成项目核心代码编写，代码审计，项目环境部署
+                    </li>
+                    <li>
+                        采用ELK方案设计日志中台并接入多个业务项目日志，更好地管理和检索数据
+                    </li>
+                    <li>
+                        规范了小组协作的Git代码管理流程和文档存档
+                    </li>
+                    <li>完成多个为商户定制系统的开发，如道观捐赠、线上报名、打的账单、商城等</li>
+                </ul>
+            </div>
+            <!--<div class="work">-->
+            <!--    <div class="work_times">-->
+            <!--        2017.01 - 2017.10-->
+            <!--    </div>-->
+            <!--    <div class="work_name">-->
+            <!--        广州千变科技有限公司-->
+            <!--    </div>-->
+            <!--    <ul>-->
+            <!--        <li>-->
+            <!--            独立完成多个企业站、微信公众号开发维护-->
+            <!--        </li>-->
+            <!--    </ul>-->
+                <!--<div class="work_dowhat">——PHP开发</div>-->
+            <!--</div>-->
+            
+        感谢您的阅读，希望可以进一步与您交流。
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+    </body>
+
+</html>

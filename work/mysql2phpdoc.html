@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>mysql注释转换phpModel</title>
+</head>
+<body>
+ 
+ 
+<textarea name="value" id="value" cols="30" rows="10" style="width:700px;"></textarea>
+<pre id="result"></pre>
+ 
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    $(function () {
+        $("#value").on("change", function () {
+            let string = $("#value").val();
+ 
+            if (string.slice(0, 6) !== "CREATE" && string.slice(0, 6) !== "create") {
+                alert("sql非法 请传入create table sql");
+                return false;
+            }
+ 
+ 
+            let array = string.split(/[\n]/);
+ 
+            let firstLine = array[0];
+            console.log(firstLine);
+            var regExp = /`(.*?)`/gi;
+            // let dbName = regExp.exec(firstLine)[1];
+            let tableName = regExp.exec(firstLine)[1];
+            let returnString = `
+/**
+ * ${tableName}`;
+            $.each(array, function (index, item) {
+                if (index == 0) {
+                    return true;
+                }
+                // 判断是否为索引
+                if (item.indexOf("PRIMARY KEY") != -1) {
+                    return false;
+                }
+                let regExpField = /`(.*?)`/gi;
+                let field = regExpField.exec(item);
+ 
+                if (field == null) {
+                    return true;
+                }
+                let comment = '';
+                let commentExp = /'(.*?)'/gi;
+                let commentReg = commentExp.exec(item);
+                if (commentReg !== null) {
+                    comment = commentReg[1];
+                }
+                returnString += `
+ * @property mixed $${field[1]} ${comment}`;
+            });
+            returnString += `
+ */`;
+            console.log(returnString);
+            $("#result").html(returnString);
+        });
+    });
+</script>
+</body>
+</html>
