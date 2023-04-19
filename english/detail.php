@@ -1,8 +1,8 @@
 <?php
 
-use think\facade\Db;
 
 require "./common.php";
+require "./model/Vacabularys.php";
 
 
 $vacabulary = !empty($_POST['vacabulary']) ? $_POST['vacabulary'] : 'power';
@@ -10,7 +10,7 @@ if (!$vacabulary){
     json(400,[],'必传');
 }
  
-$datas = Db::name('vacabularys')->where('vacabulary_content', $vacabulary)->find();
+$datas = Vacabularys::where('vacabulary_content', $vacabulary)->find();
 
 // 关联出主词根
 
