@@ -7,14 +7,20 @@ class Vacabularys extends Model{
 
     public function root()
     {
-        return $this->hasOne(self::class,'vacabulary_root','vacabulary_content');
+        return $this->hasOne(self::class,'vacabulary_content','vacabulary_root');
     }
 
     public function getSubAttr($value)
     {
-        // vacabulary_sub 按,分割   然后whereIn查询
+        // 按,分割vacabulary_sub   然后where In
         $sub = explode(',',$this->vacabulary_sub ?? '');
         $sub = Vacabularys::where('vacabulary_content','in',$sub)->select();
+        return $sub;
+    }
+
+    public function getMoreAttr($value)
+    {
+        $sub = Vacabularys::where('vacabulary_root','=',$this->vacabulary_content,'or')->whereRaw('FIND_IN_SET(vacabulary_sub,"'.$this->vacabulary_content.'") != 0',[],'or')->select();
         return $sub;
     }
 
