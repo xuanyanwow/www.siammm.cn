@@ -10,8 +10,9 @@ if (!$vacabulary){
     json(400,[],'必传');
 }
  
-$datas = Vacabularys::where('vacabulary_content', $vacabulary)->find();
+$datas = Vacabularys::where('vacabulary_content', $vacabulary)->with(['root'])->find();
 
+$datas->sub;
 // 关联出主词根
 
 // 带出衍生词
