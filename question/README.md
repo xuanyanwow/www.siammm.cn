@@ -1,6 +1,6 @@
-# 业务问题
-
+## 好好学习 天天向上
 * [优质技术文章](/question/good-article)
+
 ## 硬件知识
 * * [路由器,交换机,NAT](/question/yingjian/router.md)
 ## 概念思想性
@@ -26,12 +26,18 @@
 * * [php实现重载](/question/basic/overload)
 ## Docker
 * * [Docker小故事](/question/docker/sheji)
+
+
 ## 面试技术点
-### =======协议
+### 语言/底层
 * * [面试题 - swoole/Go协程](/question/go-co)
+* * [面试题 - swoole为什么比php-fpm快? TODO](/question/swoole-quicker-fpm)
+
+### 协议
 * * [面试题 - https加密流程细节](/question/https)
 * * [面试题 - tcp怎么保证可靠传输](/question/tcp-safe-transfer)
-### =======队列缓存
+
+### 队列缓存
 * * [面试题 - redis集群](/question/redis-cluster)
 * * [面试题 - redis实现接口限流](/question/redis-limit-api)
 * * [面试题 - 秒杀抢购](/question/rush-to-buy)
@@ -39,7 +45,8 @@
 * * [面试题 - 队列消费幂等性](/question/queue-idempotency)
 * * [面试题 - Redis与Memcache对比](/question/cache/redis-vs-memcache)
 * * [面试题 - kafka【龙骨】](/question/queue/kafka)
-### =======数据库
+
+### 数据库
 * * [面试题 - mysql【龙骨】](/question/mysql-optimization)
 * * [面试题 - mysql8新特性](/question/database/mysql8_skin_index)
 * * [面试题 - mysql  innodb【龙骨】](https://blog.csdn.net/shenjian58/article/details/102577671?spm=1001.2014.3001.5502)
@@ -49,19 +56,28 @@
 * * [面试题 - clickhouse【龙骨】](/question/database/clickhouse)
 * * [面试题 - 高性能大数据写入 滴滴出行GPS 每秒百万写入](/question/database/big_write)
 * * [龙骨 - mongoDB](/question/database/mongoDB)
-### =======全文检索
+
+### 全文检索
 * * [面试题 - es搜索引擎优化角度【龙骨】](/question/es-optimization)
-### =======分布式
+
+### 分布式
 * * [面试题 - 接口幂等性](/question/api-idempotency)
 * * [面试题 - 分布式事务](/question/distributed-trans)
 * * [面试题 - gRPC](/question/grpc)
-### =======算法
+
+### 算法
 * * [面试题 - 打乱数组算法](/question/shuffle-array)
-### =======架构
+
+### 架构
 * * [外部 - 架构小总结](https://blog.csdn.net/shenjian58/article/details/89850953?spm=1001.2014.3001.5502)
 * * [外部 - 1分钟架构运维小技巧](https://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ%3D%3D&chksm=bd2d0f598a5a864fe698ed2b7e633fec4db07519925638f544840746fab040a67c3fee45dfac&idx=1&mid=2651961989&scene=21&sn=0896b4a9c1d46a68dd1bdbb69adc28a8#wechat_redirect)
 * * [外部 - 10个有意思的架构问题](https://blog.csdn.net/shenjian58/article/details/109152965?spm=1001.2014.3001.5502)
 * * [外部 - 架构设计9大场景(阶段)](/question/jiagou/step)
+
+### 运维
+* * [面试题 - nginx优化 TODO]()
+* * [面试题 - php-fpm优化 TODO]()
+
 ## 总结题
 * * [总结题 - 工作遇到什么问题](/question/work-question)
 * * [总结题 - 离职原因](/question/quit-reason)

@@ -8,12 +8,6 @@ if (!isset($_GET['key']) || ($_GET['key'] !== "siam") ){
 echo <<<siam
 # Siam个人私用
 
-## 记录点
-
-- 技术栈图：腾讯文档`IT技术栈`
-- 学习路线：腾讯文档`学习记录New`
-- 非技术阅读笔记：腾讯文档
-- TODO管理：Teambition
 - PHP与服务端通用面试点和实战记录：[业务笔记，问题笔记](question/)
 - Go语言专栏：[业务笔记，问题笔记](go/)
 - 软件工具：[SiamPan](http://pan.siammm.cn/)
