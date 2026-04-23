@@ -7,7 +7,7 @@
 
 
 - 🍑 个人Github [Github](https://github.com/xuanyanwow)
-- 🍊 个人技术博客 [博客](https://blog.siammm.cn)
+- 🍊 个人技术博客 [博客](/)
 - 🏆 大话设计模式 [笔记](./oop_note/)
 
 <br/>
