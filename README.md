@@ -13,7 +13,7 @@
 <br/>
 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral">
- <img src="https://imgur.com/VrJ6H1Z" width = "150" height = "70" alt="又拍云" align=center />
+<!-- <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"> -->
+ <!-- <img src="https://imgur.com/VrJ6H1Z" width = "150" height = "70" alt="又拍云" align=center /> -->
 
-</a>
+<!-- </a> -->
