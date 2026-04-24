@@ -110,6 +110,8 @@ LIMIT 20;
 
 Sphinx 适合做“高性价比全文检索”：部署轻、接入快、对 MySQL 体系友好。先跑通 `source/index/searchd/SphinxQL` 这条最小链路，再逐步做增量索引和排序优化即可。
 
+> 但更推荐用ES，数据和工具更全，Sphinx被淘汰了
+
 
 ## 推荐客户端
 
