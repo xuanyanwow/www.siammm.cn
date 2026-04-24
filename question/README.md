@@ -3,6 +3,7 @@
 
 ## 硬件知识
 * * [路由器,交换机,NAT](/question/yingjian/router.md)
+
 ## 概念思想性
 * * [IO复用,Socket编程](/question/io-reuse)
 * * [设计模式](/question/oop)
@@ -12,6 +13,7 @@
 * * [✍️ Canal](/question/canal)
 * * [Go微服务](/question/micro-server)
 * * [微服务-架构思想笔记](/question/micro-server-mind)
+
 ## 实战记录
 * * [实战 - 统计QPS](/question/stastics-qps)
 * * [实战 - Mysql备份方案问题](/question/mysql-back)
@@ -21,9 +23,11 @@
 * * [实战 - 项目架构，容量设计](/question/workExperience/new-project-design)
 * * [理论 - 从零开始考虑架构](https://blog.csdn.net/afreon/article/details/125476814?spm=1001.2014.3001.5502)
 * * [实战 - 面试   6k并发同时提交 怎么让请求时间在1秒内](/question/20220829)
+
 ## PHP基础
 * * [读取类中私有字段的三种方法](/question/basic/readPrivate)
 * * [php实现重载](/question/basic/overload)
+
 ## Docker
 * * [Docker小故事](/question/docker/sheji)
 
@@ -82,5 +86,6 @@
 * * [总结题 - 工作遇到什么问题](/question/work-question)
 * * [总结题 - 离职原因](/question/quit-reason)
 * * [总结题 - 项目经历](/question/project-design)
+
 ## 管理思想
 * * [管理 - 关于团队,leader必须要思考和设计的几个问题](/question/manage/step1)
