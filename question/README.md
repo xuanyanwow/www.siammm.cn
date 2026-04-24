@@ -48,21 +48,22 @@
 * [面试题 - Redis Mysql等主从数据同步延迟问题](/question/master-servant-data-delay)
 * [面试题 - 队列消费幂等性](/question/queue-idempotency)
 * [面试题 - Redis与Memcache对比](/question/cache/redis-vs-memcache)
-* [面试题 - kafka【龙骨】](/question/queue/kafka)
+* [面试题 - kafka【🌟】](/question/queue/kafka)
 
 ### 数据库
-* [面试题 - mysql【龙骨】](/question/mysql-optimization)
+* [面试题 - mysql【🌟】](/question/mysql-optimization)
 * [面试题 - mysql8新特性](/question/database/mysql8_skin_index)
-* [面试题 - mysql  innodb【龙骨】](https://blog.csdn.net/shenjian58/article/details/102577671?spm=1001.2014.3001.5502)
-* [面试题 - mysql【龙骨】](https://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ%3D%3D&chksm=bd2d0fb98a5a86af13ec7f096bde37e1c8cd0d19e7124e6bdb53761314d5b64a39ba9fbd1355&idx=1&mid=2651961957&scene=21&sn=c4cdf7c27ade9c95fdf40c4c38e19da9#wechat_redirect)
+* [面试题 - mysql  innodb【🌟】](https://blog.csdn.net/shenjian58/article/details/102577671?spm=1001.2014.3001.5502)
+* [面试题 - mysql【🌟】](https://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ%3D%3D&chksm=bd2d0fb98a5a86af13ec7f096bde37e1c8cd0d19e7124e6bdb53761314d5b64a39ba9fbd1355&idx=1&mid=2651961957&scene=21&sn=c4cdf7c27ade9c95fdf40c4c38e19da9#wechat_redirect)
 * [面试题 - mysql锁](/question/mysql-lock)
 * [面试题 - mysql for update的一些小问题](/question/mysql-forupdate-lock)
-* [面试题 - clickhouse【龙骨】](/question/database/clickhouse)
+* [面试题 - clickhouse【🌟】](/question/database/clickhouse)
 * [面试题 - 高性能大数据写入 滴滴出行GPS 每秒百万写入](/question/database/big_write)
-* [龙骨 - mongoDB](/question/database/mongoDB)
+* [mongoDB](/question/database/mongoDB)
 
 ### 全文检索
-* [面试题 - es搜索引擎优化角度【龙骨】](/question/es-optimization)
+* [面试题 - es搜索引擎优化角度【🌟】](/question/es-optimization)
+* [sphinx] (/question/database/sphinx)
 
 ### 分布式
 * [面试题 - 接口幂等性](/question/api-idempotency)
